@@ -1,0 +1,6 @@
+<!--pages/chat/chat.wxml-->
+<view class="container follow">
+	<view>
+		聊天
+	</view>
+</view>

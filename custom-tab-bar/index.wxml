@@ -1,0 +1,10 @@
+<!--custom-tab-bar/index.wxml-->
+<van-tabbar wx:if="{{isShow}}" active="{{ active }}" active-color="#fe0000" inactive-color="#000" bind:change="onChange">
+	<van-tabbar-item wx:for="{{list}}" wx:key="{{index}}">
+		<view class="tab-bar">
+			<i class="iconfont {{item.icon}}" mode="aspectFit" style="font-size: 48rpx;">
+			</i>
+			{{item.text}}
+		</view>
+	</van-tabbar-item>
+</van-tabbar>

@@ -1,0 +1,56 @@
+<!--pages/home/components/home-hot-value/index.wxml-->
+<view class="list__data">
+	<view class="banners">
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{banners}}" wx:key="*this" wx:for-item="image">
+				<swiper-item>
+					<image class="banner-image" alt="暂无图片" src="{{image}}"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<view class="common__category">
+		<van-grid column-num="5" border="{{ false }}">
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/1.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/2.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/3.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/4.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/5.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/6.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/7.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/8.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/9.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+			<van-grid-item use-slot>
+				<image class="category-icon" src="../../../../assest/images/common-category/10.jpg" />
+				<text>内容</text>
+			</van-grid-item>
+		</van-grid>
+	</view>
+</view>

@@ -1,0 +1,10 @@
+/**app.wxss**/
+@import "./assest/font/index.wxss";
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+} 

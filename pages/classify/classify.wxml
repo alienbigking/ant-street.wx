@@ -1,0 +1,6 @@
+<!--pages/classify/classify.wxml-->
+<view class="container follow">
+	<view>
+		类别
+	</view>
+</view>
