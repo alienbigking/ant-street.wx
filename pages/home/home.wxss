@@ -1,0 +1,71 @@
+/* pages/home/home.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* search*/
+.home__search {
+  padding: 0 20px;
+  position: relative;
+}
+
+.home__search-input {
+  border: 1px solid #ddd;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+.home__search-icon {
+  font-size: 24px;
+  position: absolute;
+  top: 12px;
+  left: 126px;
+}
+
+.home__search-camera {
+  position: absolute;
+  z-index: 1000;
+  font-size: 24px;
+  top: 0px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* 相机样式 */
+.camera__full-screen {
+  z-index: 2000;
+}
+
+/* 覆盖在相机组件上 */
+.camera__actions .camera__bg-image {
+  width: 100vh;
+  height: 50vh;
+}
+
+/* category */
+
+.home__category {
+  display: flex;
+}
+
+.home__category-hot {
+  padding-right: 30rpx;
+}
+
+.home__category-names {
+  width: 100%;
+}
+
+.tab-color {
+  color: #fe0000;
+}

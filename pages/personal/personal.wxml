@@ -1,0 +1,6 @@
+<!--pages/personal/personal.wxml-->
+<view class="container follow">
+	<view>
+		个人中心
+	</view>
+</view>

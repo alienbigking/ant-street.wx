@@ -1,0 +1,6 @@
+<!--pages/follow/follow.wxml-->
+<view class="container follow">
+	<view>
+		关注
+	</view>
+</view>

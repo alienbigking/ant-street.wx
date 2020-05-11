@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "home-hot-value":"./components/home-hot-value/index"
+  }
+}

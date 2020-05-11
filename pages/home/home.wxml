@@ -1,0 +1,33 @@
+<!--pages/home/home.wxml-->
+<view class="container home">
+	<view class="home__search">
+		<input class="home__search-input" type="text" confirm-type="search" placeholder="请输入内容" />
+		<i class="iconfont iconsousuo home__search-icon" />
+		<i class="iconfont iconxiangji home__search-camera" bindtap="onOpenCamera" />
+	</view>
+	<view class="camera">
+		<!-- <canvas class="progress_bg" canvas-id="canvasProgressbg"></canvas>
+		<canvas class="progress_canvas" canvas-id="canvasProgress"></canvas> -->
+		<camera device-position="back" flash="off" binderror="onCameraError" frame-size="medium" device-position="front" mode="normal" style="width: 100vh; height: {{cameraHeight}};" class="camera__full-screen">
+			<cover-view class="camera__actions">
+				<cover-image class="camera__bg-image" src="../../assest/images/camera-image/circle.png"></cover-image>
+			</cover-view>
+		</camera>
+	</view>
+	<!-- <view class="home__category">
+		<view class="home__category-names">
+			<van-tabs color="#fe0000" active="{{ active }}" border="{{ false }}">
+				<van-tab title-style="color:{{color}}" title="热门">
+					<home-hot-value></home-hot-value>
+				</van-tab>
+				<van-tab title="水果">水果</van-tab>
+				<van-tab title="女装">女装</van-tab>
+				<van-tab title="手机">手机</van-tab>
+				<van-tab title="食品">食品</van-tab>
+				<van-tab title="男装">男装</van-tab>
+				<van-tab title="鞋包">鞋包</van-tab>
+				<van-tab title="衣服">衣服</van-tab>
+			</van-tabs>
+		</view>
+	</view> -->
+</view>

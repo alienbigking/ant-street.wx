@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/follow/follow",
+    "pages/classify/classify",
+    "pages/chat/chat",
+    "pages/personal/personal",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [{
+      "pagePath": "pages/home/home"
+    },{
+      "pagePath": "pages/follow/follow"
+    },{
+      "pagePath": "pages/classify/classify"
+    },{
+      "pagePath": "pages/chat/chat"
+    },{
+      "pagePath": "pages/personal/personal"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "./miniprogram/@vant/weapp/dist/button/index",
+    "van-tab": "./miniprogram/@vant/weapp/dist/tab/index",
+    "van-tabs": "./miniprogram/@vant/weapp/dist/tabs/index",
+    "van-tabbar": "./miniprogram/@vant/weapp/dist/tabbar/index",
+    "van-tabbar-item": "./miniprogram/@vant/weapp/dist/tabbar-item/index",
+    "van-grid": "./miniprogram/@vant/weapp/dist/grid/index",
+    "van-grid-item": "./miniprogram/@vant/weapp/dist/grid-item/index",
+    "van-popup": "./miniprogram/@vant/weapp/dist/popup/index"
+  }
+}
